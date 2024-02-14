@@ -37,6 +37,7 @@ import java.util.UUID;
  * @description
  * @create 2024/1/21 00:30
  **/
+@Deprecated
 public class LambdaRequestHandler implements RequestHandler<APIGatewayV2HTTPEvent, APIGatewayV2HTTPResponse> {
     @Override
     public APIGatewayV2HTTPResponse handleRequest(APIGatewayV2HTTPEvent event, Context context) {

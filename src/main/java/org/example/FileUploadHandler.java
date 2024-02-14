@@ -9,6 +9,7 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
 
+@Deprecated
 public class FileUploadHandler implements RequestStreamHandler {
 
     private static final ObjectMapper objectMapper = new ObjectMapper();
